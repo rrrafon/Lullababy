@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:background="#020f40">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="@string/app_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:fontFamily="sans-serif-smallcaps" android:typeface="serif" android:textSize="30sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/tableLayout" android:textStyle="bold"
+                android:textColor="@android:color/background_light" android:gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="@dimen/margin_small" android:padding="@dimen/space_M"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center_horizontal">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:padding="@dimen/space_S">
+                <Button
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_brahms"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="@dimen/button_square"
+                        android:padding="@dimen/space_S"
+                        android:foreground="@drawable/moonz" android:background="@drawable/btn_def"
+                        android:layout_weight="1"/>
+                <View
+                        android:id="@+id/divider2"
+                        android:layout_width="@dimen/button_space"
+                        android:layout_height="@dimen/button_space"
+                        android:layout_weight="1"/>
+                <Button
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_shh"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:background="@drawable/btn_def"
+                        android:textColor="@android:color/background_dark" android:padding="4dp"
+                        android:layout_width="@dimen/button_square" android:foreground="@drawable/wind"
+                        android:paddingBottom="@dimen/space_S" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:padding="@dimen/space_S">
+                <Button
+                        android:layout_width="@dimen/button_square"
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_rain"
+                        style="@style/Widget.AppCompat.Button.Colored" android:background="@drawable/btn_def"
+                        android:textColor="@android:color/background_dark"
+                        android:padding="4dp" android:foreground="@drawable/raining" android:layout_weight="1"/>
+                <View
+                        android:id="@+id/divider5"
+                        android:layout_width="@dimen/button_space"
+                        android:layout_height="@dimen/button_space"
+                        android:layout_weight="1"/>
+                <Button
+                        android:layout_width="@dimen/button_square"
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_storm"
+                        android:background="@drawable/btn_def" android:foreground="@drawable/storm"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:padding="@dimen/space_S">
+                <Button
+                        android:layout_width="@dimen/button_square"
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_water"
+                        android:background="@drawable/btn_def" android:foreground="@drawable/drop"
+                        style="@style/Widget.AppCompat.Button.Colored" android:layout_weight="1"/>
+                <View
+                        android:id="@+id/divider3"
+                        android:layout_width="@dimen/button_space"
+                        android:layout_height="@dimen/button_space"
+                        android:layout_weight="1"/>
+                <Button
+                        android:layout_width="@dimen/button_square"
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_seaside"
+                        style="@style/Widget.AppCompat.Button.Colored" android:background="@drawable/btn_def"
+                        android:textColor="@android:color/background_dark" android:foreground="@drawable/sunset"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:padding="@dimen/space_S">
+                <Button
+                        android:layout_width="@dimen/button_square"
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_night"
+                        android:background="@drawable/btn_def" android:foreground="@drawable/moon"
+                        android:layout_weight="1"/>
+                <View
+                        android:id="@+id/divider4"
+                        android:layout_width="@dimen/button_space"
+                        android:layout_height="@dimen/button_space"
+                        android:layout_weight="1"/>
+                <Button
+                        android:layout_width="@dimen/button_square"
+                        android:layout_height="@dimen/button_square" android:id="@+id/button_city"
+                        android:background="@drawable/btn_def" android:foreground="@drawable/building"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_med">
+                <Button
+                        android:text="timer"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_space" android:id="@+id/button_timer"
+                        android:layout_weight="1" style="@android:style/Widget.Button"
+                        android:textColorLink="#12424a" android:background="@android:color/holo_blue_dark"
+                        android:padding="@dimen/space_S"/>
+                <TextView
+                        android:text=" [ 00 : 00 ] "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/timer_text" android:layout_weight="1"
+                        android:textSize="18sp" android:textColor="@android:color/darker_gray"/>
+                <Button
+                        android:text=" credits "
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_space" android:id="@+id/button_credits"
+                        android:layout_weight="1" style="@android:style/Widget.Button"
+                        android:textColorLink="#12424a" android:background="@android:color/holo_blue_dark"
+                        android:padding="@dimen/space_S"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lullababy</string>
+    <string name="app_header">Ambient Sounds</string>
+    <string name="credits">
+        \n  CREDITS  \n
+
+        SOUND\n
+        https://freesound.org/people/klankbeeld\n
+        https://freesound.org/people/lebaston100\n
+        https://freesound.org/people/INNORECORDS\n
+        https://freesound.org/people/craftcrest\n
+        https://freesound.org/people/corpocracy\n
+        \n
+        ICONS\n
+
+        https://www.flaticon.com/authors/good-ware\n
+        https://www.flaticon.com/authors/zlatko-najdenovski\n
+        \n
+        Creative Commons BY 3.0\n
+
+    </string>
+</resources>
